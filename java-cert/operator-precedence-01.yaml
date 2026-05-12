@@ -1,0 +1,18 @@
+challenge_id: "operator-precedence-01"
+sample: "java-cert"
+title: "Operator Precedence Puzzle"
+category: "Java Basics"
+difficulty: "BEGINNER"
+status: "given_up"
+attempts: 1
+first_attempt_at: "2026-05-12T21:40:08.467297700Z"
+last_attempt_at: "2026-05-12T21:40:08.467297700Z"
+gave_up_at: "2026-05-12T21:40:08.467297700Z"
+last_code: |
+  public class OperatorTest {
+      public static void main(String[] args) {
+          int result = 2 + 3 * 4;
+          System.out.println(result);
+      }
+  }
+  
