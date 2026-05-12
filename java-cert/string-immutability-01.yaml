@@ -1,0 +1,20 @@
+challenge_id: "string-immutability-01"
+sample: "java-cert"
+title: "String Immutability Trap"
+category: "Java Basics"
+difficulty: "BEGINNER"
+status: "solved"
+attempts: 1
+first_attempt_at: "2026-05-12T21:39:34.678147600Z"
+last_attempt_at: "2026-05-12T21:39:34.678147600Z"
+solved_at: "2026-05-12T21:39:34.678147600Z"
+last_code: |
+  public class StringTest {
+      public static void main(String[] args) {
+          String s = "hello";
+          s = s.toUpperCase();
+          s = s.concat(" WORLD");
+          System.out.println(s);
+      }
+  }
+  
