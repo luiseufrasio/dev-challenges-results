@@ -1,0 +1,19 @@
+challenge_id: "var-type-inference-01"
+sample: "java-cert"
+title: "var Type Inference Trap"
+category: "Java Basics"
+difficulty: "BEGINNER"
+status: "in_progress"
+attempts: 1
+first_attempt_at: "2026-05-12T23:20:13.618352100Z"
+last_attempt_at: "2026-05-12T23:20:13.618352100Z"
+last_code: |
+  public class VarTest {
+      var greeting = "Hello, Java 21!";
+  
+      public static void main(String[] args) {
+          var test = new VarTest();
+          System.out.println(test.greeting);
+      }
+  }
+  
