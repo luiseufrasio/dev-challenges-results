@@ -3,10 +3,10 @@ sample: "java-cert"
 title: "Operator Precedence Puzzle"
 category: "Java Basics"
 difficulty: "BEGINNER"
-status: "given_up"
-attempts: 1
+status: "in_progress"
+attempts: 2
 first_attempt_at: "2026-05-12T21:40:08.467297700Z"
-last_attempt_at: "2026-05-12T21:40:08.467297700Z"
+last_attempt_at: "2026-05-12T23:59:51.749005300Z"
 gave_up_at: "2026-05-12T21:40:08.467297700Z"
 last_code: |
   public class OperatorTest {
