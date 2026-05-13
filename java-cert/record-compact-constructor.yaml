@@ -1,0 +1,23 @@
+challenge_id: "record-compact-constructor"
+sample: "java-cert"
+title: "Record Compact Constructor Nuances"
+category: "Beyond Classes"
+difficulty: "ADVANCED"
+status: "solved"
+attempts: 1
+first_attempt_at: "2026-05-13T02:10:43.083029500Z"
+last_attempt_at: "2026-05-13T02:10:43.083029500Z"
+solved_at: "2026-05-13T02:10:43.083029500Z"
+last_code: |
+  public record Person(String name, int age) {
+      // Compact constructor must not use 'this.' to assign fields
+      public Person {
+          if (age < 0) age = 0;
+          name = name;
+      }
+  
+      public static void main(String[] args) {
+          System.out.println(new Person("Bob", -5).age());
+      }
+  }
+  
