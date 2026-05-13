@@ -1,0 +1,21 @@
+challenge_id: "localdate-immutable-01"
+sample: "java-cert"
+title: "The Date That Never Moves"
+category: "Core APIs"
+difficulty: "BEGINNER"
+status: "solved"
+attempts: 1
+first_attempt_at: "2026-05-13T02:12:00.666285800Z"
+last_attempt_at: "2026-05-13T02:12:00.666285800Z"
+solved_at: "2026-05-13T02:12:00.666285800Z"
+last_code: |
+  import java.time.LocalDate;
+  
+  public class DateMath {
+      public static void main(String[] args) {
+          LocalDate date = LocalDate.of(2025, 1, 20);
+          date = date.plusDays(10);
+          System.out.println(date);
+      }
+  }
+  
