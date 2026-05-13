@@ -3,17 +3,17 @@ sample: "java-cert"
 title: "Record Compact Constructor Nuances"
 category: "Beyond Classes"
 difficulty: "ADVANCED"
-status: "solved"
-attempts: 1
+status: "in_progress"
+attempts: 2
 first_attempt_at: "2026-05-13T02:10:43.083029500Z"
-last_attempt_at: "2026-05-13T02:10:43.083029500Z"
+last_attempt_at: "2026-05-13T02:11:17.270118600Z"
 solved_at: "2026-05-13T02:10:43.083029500Z"
 last_code: |
   public record Person(String name, int age) {
       // Compact constructor must not use 'this.' to assign fields
       public Person {
           if (age < 0) age = 0;
-          name = name;
+          this.name = name;
       }
   
       public static void main(String[] args) {
