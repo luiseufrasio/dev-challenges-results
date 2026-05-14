@@ -1,2 +1,3 @@
 votes:
   static-interface-method-hiding: positive
+  string-immutability-01: positive
