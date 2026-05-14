@@ -3,20 +3,21 @@ sample: "java-cert"
 title: "Static Interface Method Hiding"
 category: "Beyond Classes"
 difficulty: "ADVANCED"
-status: "in_progress"
-attempts: 1
+status: "solved"
+attempts: 2
 first_attempt_at: "2026-05-14T13:53:51.646871400Z"
-last_attempt_at: "2026-05-14T13:53:51.646871400Z"
+last_attempt_at: "2026-05-14T13:54:44.598231500Z"
+solved_at: "2026-05-14T13:54:44.598231500Z"
 last_code: |
   interface Flyer {
-      public static void fly() {
+      static void fly() {
           System.out.println("Flyer is flying");
       }
   }
   
   public class Bird implements Flyer {
       public void test() {
-          fly();
+          Flyer.fly();
       }
   
       public static void main(String[] args) {
