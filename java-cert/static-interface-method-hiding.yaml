@@ -1,0 +1,26 @@
+challenge_id: "static-interface-method-hiding"
+sample: "java-cert"
+title: "Static Interface Method Hiding"
+category: "Beyond Classes"
+difficulty: "ADVANCED"
+status: "in_progress"
+attempts: 1
+first_attempt_at: "2026-05-14T13:53:51.646871400Z"
+last_attempt_at: "2026-05-14T13:53:51.646871400Z"
+last_code: |
+  interface Flyer {
+      public static void fly() {
+          System.out.println("Flyer is flying");
+      }
+  }
+  
+  public class Bird implements Flyer {
+      public void test() {
+          fly();
+      }
+  
+      public static void main(String[] args) {
+          new Bird().test();
+      }
+  }
+  
