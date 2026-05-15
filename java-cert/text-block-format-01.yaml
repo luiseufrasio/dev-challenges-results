@@ -1,0 +1,19 @@
+challenge_id: "text-block-format-01"
+sample: "java-cert"
+title: "Text Block Surprise"
+category: "Java Basics"
+difficulty: "BEGINNER"
+status: "in_progress"
+attempts: 1
+first_attempt_at: "2026-05-15T19:52:17.920755900Z"
+last_attempt_at: "2026-05-15T19:52:17.920755900Z"
+last_code: |
+  public class TextBlockTest {
+      public static void main(String[] args) {
+          String message = """Java 21
+              Study Guide
+              """;
+          System.out.println(message);
+      }
+  }
+  
