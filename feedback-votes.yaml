@@ -4,3 +4,4 @@ votes:
   enum-abstract-method: negative
   instance-initializer-order-01: positive
   operator-precedence-01: positive
+  text-block-format-01: positive
