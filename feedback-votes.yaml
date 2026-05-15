@@ -3,3 +3,4 @@ votes:
   string-immutability-01: positive
   enum-abstract-method: negative
   instance-initializer-order-01: positive
+  operator-precedence-01: positive
