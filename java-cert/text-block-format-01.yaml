@@ -4,17 +4,16 @@ title: "Text Block Surprise"
 category: "Java Basics"
 difficulty: "BEGINNER"
 status: "solved"
-attempts: 3
+attempts: 4
 first_attempt_at: "2026-05-15T19:52:17.920755900Z"
-last_attempt_at: "2026-05-15T19:52:47.672520800Z"
+last_attempt_at: "2026-05-15T19:53:01.134110Z"
 solved_at: "2026-05-15T19:52:47.672520800Z"
 last_code: |
   public class TextBlockTest {
       public static void main(String[] args) {
           String message = """
           Java 21
-          Study Guide
-          """;
+          Study Guide""";
           System.out.println(message);
       }
   }
