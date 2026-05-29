@@ -1,0 +1,19 @@
+challenge_id: "function-generic-types"
+sample: "java-cert"
+title: "Function Needs Two Generic Types"
+category: "Lambdas and Functional Interfaces"
+difficulty: "INTERMEDIATE"
+status: "in_progress"
+attempts: 1
+first_attempt_at: "2026-05-29T14:36:40.275639900Z"
+last_attempt_at: "2026-05-29T14:36:40.275639900Z"
+last_code: |
+  import java.util.function.Function;
+  
+  public class Lengths {
+      public static void main(String[] args) {
+          Function<String> f = s -> s.length();
+          System.out.print(f.apply("cluck"));
+      }
+  }
+  
