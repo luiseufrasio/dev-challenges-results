@@ -4,9 +4,9 @@ title: "Lambda Block Body Needs return"
 category: "Lambdas and Functional Interfaces"
 difficulty: "INTERMEDIATE"
 status: "solved"
-attempts: 1
+attempts: 2
 first_attempt_at: "2026-05-29T14:34:14.478605400Z"
-last_attempt_at: "2026-05-29T14:34:14.478605400Z"
+last_attempt_at: "2026-05-29T14:35:14.838552400Z"
 solved_at: "2026-05-29T14:34:14.478605400Z"
 last_code: |
   import java.util.function.Predicate;
@@ -16,7 +16,7 @@ last_code: |
       public static void main(String[] args) {
           Panda p1 = new Panda();
           p1.age = 1;
-          Predicate<Panda> pred = p -> { return p.age < 5; };
+          Predicate<Panda> pred = p -> p.age < 5;
           System.out.print(pred.test(p1) ? "match" : "not match");
       }
   }
