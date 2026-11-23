@@ -3,17 +3,18 @@ sample: "java-cert"
 title: "Underscore in the Wrong Place"
 category: "Java Basics"
 difficulty: "INTERMEDIATE"
-status: "in_progress"
-attempts: 3
+status: "solved"
+attempts: 4
 first_attempt_at: "2026-11-23T16:32:50.385178925Z"
-last_attempt_at: "2026-11-23T16:33:18.150007731Z"
+last_attempt_at: "2026-11-23T16:34:15.601109425Z"
+solved_at: "2026-11-23T16:34:15.601109425Z"
 last_code: |
   public class UnderscoreTest {
       public static void main(String[] args) {
           int million = 1_000_000;
           double pi = 3.14;
           double total = million + pi;
-          System.out.println();
+          System.out.println(total);
       }
   }
   
