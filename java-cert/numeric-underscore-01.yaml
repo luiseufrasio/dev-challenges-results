@@ -4,14 +4,14 @@ title: "Underscore in the Wrong Place"
 category: "Java Basics"
 difficulty: "INTERMEDIATE"
 status: "in_progress"
-attempts: 1
+attempts: 2
 first_attempt_at: "2026-11-23T16:32:50.385178925Z"
-last_attempt_at: "2026-11-23T16:32:50.385178925Z"
+last_attempt_at: "2026-11-23T16:33:07.470716411Z"
 last_code: |
   public class UnderscoreTest {
       public static void main(String[] args) {
           int million = _1_000_000;
-          double pi = 3_.14;
+          double pi = 3.14;
           double total = million + pi;
           System.out.println();
       }
